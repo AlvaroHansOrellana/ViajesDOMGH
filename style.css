@@ -1,0 +1,62 @@
+
+#banner {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px; /* Separar el banner del contenido */
+}
+
+
+#recomendados {
+    margin: 20px;
+    text-align: center;
+}
+
+#recomendados h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contenedor-recomendados {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Separación entre las tarjetas */
+    flex-wrap: wrap; /* Asegurarse de que las tarjetas se ajusten en caso de ser muchas */
+}
+
+.tarjeta {
+    width: calc(33.33% - 20px); /* Ocupa un tercio del ancho con espacio entre tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tarjeta h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    margin: 10px;
+    color: #555;
+}
+
+/* Dropdown de destinos */
+#destinos {
+    margin: 20px;
+}
+
+#select-destinos {
+    padding: 10px;
+    font-size: 16px;
+}
+
